@@ -4,7 +4,7 @@
 #include <algorithm>
 
 #define TESTS_COUNT 1000
-#define ELEMENTS 10
+#define ELEMENTS 100
 #define LOWER_BOUND -100
 #define UPPER_BOUND 100
 
