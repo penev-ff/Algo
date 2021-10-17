@@ -4,8 +4,8 @@
 #include <algorithm>
 
 #define TESTS_COUNT 1000
-#define ELEMENTS 100
-#define LOWER_BOUND -100
+#define ELEMENTS 1000
+#define LOWER_BOUND 0
 #define UPPER_BOUND 100
 
 void generateVector(std::vector<int> &v)

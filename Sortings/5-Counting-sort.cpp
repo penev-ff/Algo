@@ -71,9 +71,9 @@ int main()
     // positive input values that could represent indices.
     // To use sortTest - edit the LOWER_BOUND to a non-negative number.
 
-    // sortTest(countingSort);
+    sortTest(countingSort);
 
-    testCountingSort();
+    // testCountingSort();
 
     return 0;
 }
