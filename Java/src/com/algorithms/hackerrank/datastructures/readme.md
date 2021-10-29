@@ -2,4 +2,4 @@
 
 | Tag          |
 |--------------|
-| [Linked Lists](Linked-Lists/) |
+| [Linked Lists](linkedlist) |

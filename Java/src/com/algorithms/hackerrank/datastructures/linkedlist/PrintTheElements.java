@@ -8,10 +8,10 @@ package com.algorithms.hackerrank.datastructures.linkedlist;
 /**
  * @author Ivan Penev
  */
-public class PrintTheElementsOfALinkedList {
+public class PrintTheElements {
 
     // Reference
-    class SinglyLinkedListNode {
+    private static class SinglyLinkedListNode {
         int data;
         SinglyLinkedListNode next;
     }
