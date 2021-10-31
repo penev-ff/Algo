@@ -16,9 +16,9 @@
 | 383. | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                               | [Solution](383-Ransom-Note.cpp)                        |
 | 242. | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                           | [Solution](242-Valid-Anagram.cpp)                      |
 | 141. | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                   | [Solution](141-Linked-List-Cycle.cpp)                  |
-| 21.  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                         | []()                                                   |
-| 203. | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)               | []()                                                   |
+| 21.  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                         | [Solution](21-Merge-Two-Sorted-Lists.cpp)                                                   |
+| 203. | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)               | [Solution](203-Remove-Linked-List-Elements.cpp)                                                   |
 | 206. | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                               | [Solution](206-Reverse-Linked-List.cpp)                |
 | 83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)        | [Solution](83-Remove-Duplicates-from-Sorted-List.cpp)  |
 | 20.  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                   | [Solution](20-Valid-Parentheses.cpp)                   |
-| 232. | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)               | []()                                                   |
+| 232. | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)               | [Solution](232-Implement-Queue-using-Stacks.cpp)                                                   |
