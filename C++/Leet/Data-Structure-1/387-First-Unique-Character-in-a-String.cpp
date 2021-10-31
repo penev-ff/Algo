@@ -1,26 +1,9 @@
 /**
+ * 
  *  Author: Ivan Penev
  *  Source: https://leetcode.com/problems/first-unique-character-in-a-string/
  *  Time: O(n) - n ~ strlen
  *  Space: O(1) - we store an array of only 26 letters for counting
- *  
- *  Given a string s, find the first non-repeating character
- *  in it and return its index. If it does not exist, return -1.
- * 
- *  Examples:
- *
- *  Input: s = "leetcode"
- *  Output: 0
- * 
- *  Input: s = "loveleetcode"
- *  Output: 2
- * 
- *  Input: s = "aabb"
- *  Output: -1
- * 
- *  Constraints:
- *   1 <= s.length <= 105
- *   s consists of only lowercase English letters.
  *
 */
 

@@ -1,36 +1,9 @@
 /**
+ * 
  *  Author: Ivan Penev
- *  Source: 
+ *  Source: https://leetcode.com/problems/valid-parentheses/
  *  Time: O(n)
  *  Space: O(k), k := count of opened brackets
- * 
- * Given a string s containing just the characters 
- * '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
- * 
- * An input string is valid if:
- *  Open brackets must be closed by the same type of brackets.
- *  Open brackets must be closed in the correct order.
- *  
- * 
- *  Examples:
- * Input: s = "()"
- * Output: true
- * 
- * Input: s = "()[]{}"
- * Output: true 
- * 
- * Input: s = "(]"
- * Output: false
- * 
- * Input: s = "([)]"
- * Output: false
- * 
- * Input: s = "{[]}"
- * Output: true
- * 
- *  Constraints:
- * 1 <= s.length <= 104
- * s consists of parentheses only '()[]{}'.
  * 
 */
 

@@ -1,81 +1,46 @@
-
 /**
+ * 
  *  Author: Ivan Penev
- *  Source: https://leetcode.com/problems/binary-tree-preorder-traversal/
- *  Time: O()
- *  Space: O()
- *
- * Given the root of a binary tree, 
- * return the preorder traversal of its nodes' values.
+ *  Source: https://leetcode.com/problems/linked-list-cycle/
+ *  Time: O(n)
+ *  Space: O(1)
  * 
- *   
- *  Examples:
- * 
- *  Example 1:
- *  Input: root = [1,null,2,3]
- *  Output: [1,2,3]
- *
- *  Example 2:
- *
- *  Input: root = []
- *  Output: []
- *
- *  Example 3:
- *
- *  Input: root = [1]
- *  Output: [1]
- *
- *  Example 4:
- * 
- *  Input: root = [1,2]
- *  Output: [1,2]
- *
- *  Example 5:
- *
- *  Input: root = [1,null,2]
- *  Output: [1,2]
- *
- *  Constraints:
- *   The number of nodes in the tree is in the range [0, 100].
- *   -100 <= Node.val <= 100
- *
 */
 
-#include <vector>
-#include <iostream>
-
-using namespace std;
-
-struct TreeNode
+struct ListNode
 {
     int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
 };
 
 class Solution
 {
 public:
-    void preorderTraversalRec(TreeNode *root, vector<int> &preorder)
+    bool hasCycle(ListNode *head)
     {
-        if (!root) return;
+        if (!head)
+            return false;
 
-        preorder.push_back(root->val);
-        preorderTraversalRec(root->left, preorder);
-        preorderTraversalRec(root->right, preorder);
-    }
+        ListNode *slow = head,
+                 *fast = head;
 
-    vector<int> preorderTraversal(TreeNode *root)
-    {
-        vector<int> preorder;
-        if (root)
+        while (fast)
         {
-            preorderTraversalRec(root, preorder);
+            fast = fast->next;
+            if (fast == slow)
+                return true;
+
+            if (!fast)
+                return false;
+            fast = fast->next;
+
+            if (fast == slow)
+                return true;
+
+            slow = slow->next;
         }
 
-        return preorder;
+        return false;
     }
 };
