@@ -22,3 +22,6 @@
 | 83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)        | [Solution](83-Remove-Duplicates-from-Sorted-List.cpp)  |
 | 20.  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                   | [Solution](20-Valid-Parentheses.cpp)                   |
 | 232. | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)               | [Solution](232-Implement-Queue-using-Stacks.cpp)                                                   |
+| 144. | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)               | [Solution](144-Binary-Tree-Preorder-Traversal.cpp)                                                   |
+| 94. | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)               | [Solution](94-Binary-Tree-Inorder-Traversal.cpp)                                                   |
+| 145. | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)               | [Solution](145-Binary-Tree-Postorder-Traversal.cpp)                                                   |
