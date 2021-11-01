@@ -7,6 +7,8 @@ package com.algorithms.hackerrank.datastructures.linkedlist;
 
 /**
  * @author Ivan Penev
+ * Time Complexity: O(N)
+ * Space Complexity: O(1)
  */
 public class PrintTheElements {
 
